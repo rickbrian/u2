@@ -1,0 +1,8 @@
+# uiautomator2 最小化依赖（仅核心功能）
+# 适用于只需要基本 UI 自动化功能的场景
+requests>=2.25.0
+lxml>=4.6.0
+adbutils>=2.9.3,<3
+Pillow>=8.0.0
+retry2>=0.9.5
+

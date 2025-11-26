@@ -1,0 +1,16 @@
+# uiautomator2 WiFi 模式依赖
+# 适用于 WiFi 模式（无需 ADB）的基本功能
+requests>=2.25.0
+lxml>=4.6.0
+adbutils>=2.9.3,<3
+Pillow>=8.0.0
+retry2>=0.9.5
+
+# WiFi 模式屏幕镜像功能（desk.py）
+opencv-python>=4.5.0
+numpy>=1.19.0
+
+# WiFi 模式屏幕录制功能（screenrecord）
+websocket-client>=1.0.0
+imageio>=2.9.0
+

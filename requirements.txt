@@ -1,0 +1,23 @@
+# uiautomator2 核心依赖（必需）
+requests>=2.25.0
+lxml>=4.6.0
+adbutils>=2.9.3,<3
+Pillow>=8.0.0
+retry2>=0.9.5
+
+# 可选依赖 - 图像处理和屏幕录制功能
+# 如果使用 screenshot(format='opencv')、screenrecord、image 等功能需要安装
+opencv-python>=4.5.0
+numpy>=1.19.0
+
+# 可选依赖 - 屏幕录制功能 (screenrecord)
+# 如果使用 d.screenrecord 功能需要安装
+websocket-client>=1.0.0
+imageio>=2.9.0
+
+# 可选依赖 - 图像识别功能 (d.image)
+# 如果使用 d.image 图像识别功能需要安装
+findit>=0.3.0
+imutils>=0.5.0
+scikit-image>=0.18.0
+

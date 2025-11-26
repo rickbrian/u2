@@ -152,7 +152,7 @@ def _http_request(connection_info: Union[adbutils.AdbDevice, Tuple[str, int]], d
             url = f"http://127.0.0.1:{device_port}{path}"
         
         # 移除调试输出，只在 print_request=True 时输出
-        print(f"curl -X {method} {url} -d '{json.dumps(data) if data else 'null'}'")
+        # print(f"curl -X {method} {url} -d '{json.dumps(data) if data else 'null'}'")
         
         if print_request:
             start_time = datetime.datetime.now()
